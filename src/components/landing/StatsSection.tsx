@@ -7,7 +7,7 @@ const StatsSection = () => {
         "Successful agribusiness transformations across multiple value chains",
       icon: (
         <svg
-          className="w-8 h-8 text-green-600"
+          className="w-8 h-8 text-brand"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -27,7 +27,7 @@ const StatsSection = () => {
       description: "From smallholder farmers to large agribusiness enterprises",
       icon: (
         <svg
-          className="w-8 h-8 text-green-600"
+          className="w-8 h-8 text-brand"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -48,7 +48,7 @@ const StatsSection = () => {
         "International experience across diverse agricultural markets",
       icon: (
         <svg
-          className="w-8 h-8 text-green-600"
+          className="w-8 h-8 text-brand"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -68,7 +68,7 @@ const StatsSection = () => {
       description: "Client satisfaction and project success metrics",
       icon: (
         <svg
-          className="w-8 h-8 text-green-600"
+          className="w-8 h-8 text-brand"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

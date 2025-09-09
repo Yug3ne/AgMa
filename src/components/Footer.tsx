@@ -13,7 +13,7 @@ const Footer = () => {
                   className="w-12 h-12 object-contain"
                 />
               </div>
-              <span className="text-2xl font-bold text-green-400">AgMa</span>
+              <span className="text-2xl font-bold text-brand-2">AgMa</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
               Transforming agribusiness through expert consulting, comprehensive
@@ -30,7 +30,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/service"
-                  className="text-gray-300 hover:text-green-400 transition-colors"
+                  className="text-gray-300 hover:text-brand-2 transition-colors"
                 >
                   Strategic Consulting
                 </a>
@@ -38,7 +38,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/service"
-                  className="text-gray-300 hover:text-green-400 transition-colors"
+                  className="text-gray-300 hover:text-brand-2 transition-colors"
                 >
                   Training & Development
                 </a>
@@ -46,7 +46,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/service"
-                  className="text-gray-300 hover:text-green-400 transition-colors"
+                  className="text-gray-300 hover:text-brand-2 transition-colors"
                 >
                   Professional Management
                 </a>
@@ -54,7 +54,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/service"
-                  className="text-gray-300 hover:text-green-400 transition-colors"
+                  className="text-gray-300 hover:text-brand-2 transition-colors"
                 >
                   Value Chain Analysis
                 </a>
@@ -62,7 +62,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/service"
-                  className="text-gray-300 hover:text-green-400 transition-colors"
+                  className="text-gray-300 hover:text-brand-2 transition-colors"
                 >
                   Market Linkage
                 </a>
@@ -70,7 +70,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/service"
-                  className="text-gray-300 hover:text-green-400 transition-colors"
+                  className="text-gray-300 hover:text-brand-2 transition-colors"
                 >
                   Certification Support
                 </a>
@@ -112,7 +112,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/about"
-                  className="text-gray-300 hover:text-green-400 transition-colors"
+                  className="text-gray-300 hover:text-brand-2 transition-colors"
                 >
                   About Us
                 </a>
@@ -120,7 +120,7 @@ const Footer = () => {
               <li>
                 <a
                   href="/contact"
-                  className="text-gray-300 hover:text-green-400 transition-colors"
+                  className="text-gray-300 hover:text-brand-2 transition-colors"
                 >
                   Contact Us
                 </a>
@@ -140,13 +140,13 @@ const Footer = () => {
           <div className="flex space-x-6">
             <a
               href="#"
-              className="text-gray-400 hover:text-green-400 transition-colors"
+              className="text-gray-400 hover:text-brand-2 transition-colors"
             >
               Privacy Policy
             </a>
             <a
               href="#"
-              className="text-gray-400 hover:text-green-400 transition-colors"
+              className="text-gray-400 hover:text-brand-2 transition-colors"
             >
               Terms Of Services
             </a>

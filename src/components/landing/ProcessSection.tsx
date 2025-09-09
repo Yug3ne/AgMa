@@ -200,7 +200,7 @@ const ProcessSection = () => {
               onClick={() => setSelectedStep(step)}
               className={`p-6 rounded-xl border-2 cursor-pointer transition-all duration-300 ${
                 selectedStep.id === step.id
-                  ? "border-green-500 bg-green-50"
+                  ? "border-brand bg-brand/5"
                   : "border-gray-200 hover:border-gray-300"
               }`}
             >
@@ -248,9 +248,9 @@ const ProcessSection = () => {
             <div className="space-y-4">
               {selectedStep.tasks.map((task, index) => (
                 <div key={index} className="flex items-start">
-                  <div className="flex-shrink-0 w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mr-3 mt-0.5">
+                  <div className="flex-shrink-0 w-6 h-6 bg-brand/10 rounded-full flex items-center justify-center mr-3 mt-0.5">
                     <svg
-                      className="w-4 h-4 text-green-600"
+                      className="w-4 h-4 text-brand"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -319,7 +319,7 @@ const ProcessSection = () => {
               <div className="space-y-3">
                 {selectedStep.deliverables.map((deliverable, index) => (
                   <div key={index} className="flex items-center">
-                    <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                    <div className="w-2 h-2 bg-brand rounded-full mr-3"></div>
                     <span className="text-gray-700">{deliverable}</span>
                   </div>
                 ))}
@@ -327,7 +327,7 @@ const ProcessSection = () => {
             </div>
 
             {/* CTA Button */}
-            <button className="w-full bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-colors duration-300 flex items-center justify-center">
+            <button className="w-full bg-brand hover:bg-brand-2 text-white px-8 py-4 rounded-xl text-lg font-semibold transition-colors duration-300 flex items-center justify-center">
               <span>Start this Process</span>
               <svg
                 className="w-5 h-5 ml-2"

@@ -396,7 +396,7 @@ const Service = () => {
               </p>
 
               {/* CTA Button */}
-              <button className="bg-white hover:bg-gray-100 text-green-700 px-8 py-4 rounded-xl text-lg font-semibold transition-colors duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl">
+              <button className="bg-white hover:bg-gray-100 text-brand px-8 py-4 rounded-xl text-lg font-semibold transition-colors duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl">
                 <span>START ASSESSMENT</span>
                 <svg
                   className="w-5 h-5 ml-2"

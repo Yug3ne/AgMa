@@ -1,7 +1,6 @@
 const HeroSection = () => {
   return (
     <section className="relative overflow-hidden">
-
       <div className="absolute inset-0">
         <img
           src="/landing 1.png"
@@ -18,9 +17,9 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="max-w-2xl space-y-8">
             {/* Badge */}
-            <div className="inline-flex items-center space-x-2 bg-white/90 backdrop-blur-sm rounded-full px-4 py-2 border border-green-200">
-              <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-              <span className="text-green-700 text-sm font-medium">
+            <div className="inline-flex items-center space-x-2 bg-white/90 backdrop-blur-sm rounded-full px-4 py-2 border border-brand/30">
+              <div className="w-2 h-2 bg-brand rounded-full"></div>
+              <span className="text-brand text-sm font-medium">
                 🌱 Sustainable Agribusiness Solutions
               </span>
             </div>
@@ -28,7 +27,7 @@ const HeroSection = () => {
             {/* Main Headline */}
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Grow Your <span className="text-green-400">Agribusiness</span>
+                Grow Your <span className="text-brand-2">Agribusiness</span>
                 <br />
                 with Expert Support
               </h1>
@@ -43,7 +42,7 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2">
+              <button className="bg-brand hover:bg-brand-2 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2">
                 <span>START ASSESSMENT</span>
                 <svg
                   className="w-5 h-5"
@@ -80,9 +79,9 @@ const HeroSection = () => {
         {/* Projects Completed Card */}
         <div className="bg-[#164000] backdrop-blur-sm rounded-2xl mb-8 p-6 shadow-lg min-w-[200px]">
           <div className="flex items-center mb-3">
-            <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-3">
+            <div className="w-10 h-10 bg-brand/10 rounded-full flex items-center justify-center mr-3">
               <svg
-                className="w-5 h-5 text-green-600"
+                className="w-5 h-5 text-brand"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -103,9 +102,9 @@ const HeroSection = () => {
         {/* Success Rate Card */}
         <div className="bg-[#164000] backdrop-blur-sm rounded-2xl p-6 mt-8 shadow-lg min-w-[200px]">
           <div className="flex items-center mb-3">
-            <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-3">
+            <div className="w-10 h-10 bg-brand/10 rounded-full flex items-center justify-center mr-3">
               <svg
-                className="w-5 h-5 text-green-600"
+                className="w-5 h-5 text-brand"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"

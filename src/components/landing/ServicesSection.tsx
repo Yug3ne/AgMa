@@ -103,7 +103,7 @@ const ServicesSection = () => {
               className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300"
             >
               {/* Icon */}
-              <div className="inline-flex items-center justify-center w-12 h-12 bg-green-600 rounded-lg mb-6">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-brand rounded-lg mb-6">
                 {service.icon}
               </div>
 
@@ -124,14 +124,14 @@ const ServicesSection = () => {
                     key={featureIndex}
                     className="flex items-center text-sm text-gray-700"
                   >
-                    <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                    <div className="w-2 h-2 bg-brand rounded-full mr-3"></div>
                     {feature}
                   </li>
                 ))}
               </ul>
 
               {/* Learn More Link */}
-              <div className="flex items-center text-green-600 hover:text-green-700 transition-colors cursor-pointer">
+              <div className="flex items-center text-brand hover:text-brand-2 transition-colors cursor-pointer">
                 <span className="text-sm font-medium">Learn More</span>
                 <svg
                   className="w-4 h-4 ml-2"

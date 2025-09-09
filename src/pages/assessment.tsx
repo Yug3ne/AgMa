@@ -32,7 +32,7 @@ const ProgressBar = ({ step, total }: { step: number; total: number }) => {
         </span>
       </div>
       <div className="h-2 rounded-full bg-gray-200 overflow-hidden">
-        <div className="h-full bg-green-600" style={{ width: `${percent}%` }} />
+        <div className="h-full bg-brand" style={{ width: `${percent}%` }} />
       </div>
     </div>
   );
@@ -72,7 +72,7 @@ const CheckboxRow = ({
       type="checkbox"
       checked={checked}
       onChange={onChange}
-      className="h-4 w-4 text-green-600"
+      className="h-4 w-4 text-brand"
     />
     <span>{label}</span>
   </label>
@@ -274,7 +274,7 @@ const Assessment = () => {
         <div className="mt-6 flex flex-col sm:flex-row gap-3">
           <a
             href="/contact"
-            className="inline-flex items-center justify-center rounded-lg bg-green-600 hover:bg-green-700 text-white px-5 py-3 font-medium"
+            className="inline-flex items-center justify-center rounded-lg bg-brand hover:bg-brand-2 text-white px-5 py-3 font-medium"
           >
             Schedule Consultation
           </a>
@@ -480,7 +480,7 @@ const Assessment = () => {
             <button
               type="button"
               onClick={goNext}
-              className="inline-flex items-center gap-2 rounded-lg bg-green-600 hover:bg-green-700 text-white px-5 py-2.5 font-medium"
+              className="inline-flex items-center gap-2 rounded-lg bg-brand hover:bg-brand-2 text-white px-5 py-2.5 font-medium"
             >
               Next
               <svg
@@ -500,7 +500,7 @@ const Assessment = () => {
           ) : (
             <a
               href="/contact"
-              className="inline-flex items-center gap-2 rounded-lg bg-green-600 hover:bg-green-700 text-white px-5 py-2.5 font-semibold"
+              className="inline-flex items-center gap-2 rounded-lg bg-brand hover:bg-brand-2 text-white px-5 py-2.5 font-semibold"
             >
               Complete Assessment
               <svg

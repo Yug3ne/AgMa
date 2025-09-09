@@ -16,8 +16,7 @@ const steps: Step[] = [
     title: "Needs Identification & Discovery",
     subtitle: "Understanding Your Challenges",
     duration: "1-2 weeks",
-    imageUrl:
-      "/agriculture.png",
+    imageUrl: "/agriculture.png",
     description:
       "We begin by understanding your unique agribusiness challenges and identifying how our expertise aligns with your needs.",
     details: [
@@ -31,8 +30,7 @@ const steps: Step[] = [
     title: "Comprehensive Assessment & Diagnostics",
     subtitle: "Deep Dive Analysis",
     duration: "2-4 weeks",
-    imageUrl:
-      "/examine.png",
+    imageUrl: "/examine.png",
     description:
       "Thorough diagnostic review and capacity assessment to identify specific opportunities and gaps across your value chain.",
   },
@@ -41,8 +39,7 @@ const steps: Step[] = [
     title: "Solution Design & Proposal Development",
     subtitle: "Tailored Solution Creation",
     duration: "1-2 weeks",
-    imageUrl:
-      "/garden.png",
+    imageUrl: "/garden.png",
     description:
       "Design customized solutions and develop comprehensive proposals with clear methodologies, timelines, and expected outcomes.",
   },
@@ -51,8 +48,7 @@ const steps: Step[] = [
     title: "Implementation & Service Delivery",
     subtitle: "Transforming Your Business",
     duration: "3-12 months",
-    imageUrl:
-      "/survey.png",
+    imageUrl: "/survey.png",
     description:
       "Active service delivery including consulting, training, and professional management to drive sustainable transformation.",
   },
@@ -61,8 +57,7 @@ const steps: Step[] = [
     title: "Outcome Evaluation & Future Planning",
     subtitle: "Measuring Impact & Sustainability",
     duration: "2-4 weeks",
-    imageUrl:
-      "/veggies.png",
+    imageUrl: "/veggies.png",
     description:
       "Evaluate results, measure impact, and develop plans for sustained improvement and potential future collaboration.",
   },
@@ -157,7 +152,7 @@ const StepCard = ({
             </div>
             <button
               onClick={() => setOpen((v) => !v)}
-              className="inline-flex items-center gap-2 text-green-700 hover:text-green-800 text-sm font-medium"
+              className="inline-flex items-center gap-2 text-brand hover:text-brand-2 text-sm font-medium"
             >
               {open ? "Less Details" : "More Details"}
               <svg
@@ -251,7 +246,7 @@ const Process = () => {
               </p>
 
               {/* CTA Button */}
-              <button className="bg-white hover:bg-gray-100 text-green-700 px-8 py-4 rounded-xl text-lg font-semibold transition-colors duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl">
+              <button className="bg-white hover:bg-gray-100 text-brand px-8 py-4 rounded-xl text-lg font-semibold transition-colors duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-xl">
                 <span>START ASSESSMENT</span>
                 <svg
                   className="w-5 h-5 ml-2"

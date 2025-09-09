@@ -21,7 +21,7 @@ const Navbar = () => {
                   className="w-10 h-10 object-contain"
                 />
               </div>
-              <span className="text-2xl font-bold text-green-600">AgMa</span>
+              <span className="text-2xl font-bold text-brand">AgMa</span>
             </Link>
           </div>
 
@@ -32,8 +32,8 @@ const Navbar = () => {
                 to="/"
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive("/")
-                    ? "text-green-600 bg-green-50"
-                    : "text-gray-700 hover:text-green-600 hover:bg-green-50"
+                    ? "text-brand bg-brand/5"
+                    : "text-gray-700 hover:text-brand hover:bg-brand/5"
                 }`}
               >
                 Home
@@ -42,8 +42,8 @@ const Navbar = () => {
                 to="/about"
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive("/about")
-                    ? "text-green-600 bg-green-50"
-                    : "text-gray-700 hover:text-green-600 hover:bg-green-50"
+                    ? "text-brand bg-brand/5"
+                    : "text-gray-700 hover:text-brand hover:bg-brand/5"
                 }`}
               >
                 About Us
@@ -52,21 +52,21 @@ const Navbar = () => {
                 to="/service"
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive("/service")
-                    ? "text-green-600 bg-green-50"
-                    : "text-gray-700 hover:text-green-600 hover:bg-green-50"
+                    ? "text-brand bg-brand/5"
+                    : "text-gray-700 hover:text-brand hover:bg-brand/5"
                 }`}
               >
                 Service
               </Link>
-              <span className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-green-50 cursor-pointer transition-colors">
+              <span className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-brand hover:bg-brand/5 cursor-pointer transition-colors">
                 Process
               </span>
               <Link
                 to="/assessment"
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive("/assessment")
-                    ? "text-green-600 bg-green-50"
-                    : "text-gray-700 hover:text-green-600 hover:bg-green-50"
+                    ? "text-brand bg-brand/5"
+                    : "text-gray-700 hover:text-brand hover:bg-brand/5"
                 }`}
               >
                 Assessment
@@ -78,7 +78,7 @@ const Navbar = () => {
           <div className="hidden md:block">
             <Link
               to="/assessment"
-              className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full text-sm font-medium transition-colors"
+              className="bg-brand hover:bg-brand-2 text-white px-6 py-2 rounded-full text-sm font-medium transition-colors"
             >
               GET STARTED
             </Link>
@@ -86,7 +86,7 @@ const Navbar = () => {
 
           {/* Mobile menu button */}
           <div className="md:hidden">
-            <button className="text-gray-700 hover:text-green-600 p-2">
+            <button className="text-gray-700 hover:text-brand p-2">
               <svg
                 className="w-6 h-6"
                 fill="none"

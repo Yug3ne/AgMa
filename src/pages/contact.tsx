@@ -86,9 +86,9 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           <div className="bg-white rounded-2xl shadow-sm ring-1 ring-gray-100 p-6 md:p-8">
             <div className="flex items-center gap-3 mb-6">
-              <span className="h-11 w-11 rounded-xl bg-green-100 flex items-center justify-center">
+              <span className="h-11 w-11 rounded-xl bg-brand/10 flex items-center justify-center">
                 <svg
-                  className="h-6 w-6 text-green-600"
+                  className="h-6 w-6 text-brand"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -107,7 +107,7 @@ const Contact = () => {
             </div>
 
             {submitted && (
-              <div className="mb-6 rounded-lg bg-green-50 text-green-800 px-4 py-3 text-sm">
+              <div className="mb-6 rounded-lg bg-brand/10 text-brand px-4 py-3 text-sm">
                 Thank you! Your message has been sent. We'll get back to you
                 within 24–48 hours.
               </div>
@@ -126,7 +126,7 @@ const Contact = () => {
                     onChange={handleChange}
                     className={`w-full rounded-lg border ${
                       errors.fullName ? "border-red-300" : "border-gray-300"
-                    } focus:ring-2 focus:ring-green-500 focus:border-green-500 px-3 py-2.5 text-gray-900 placeholder-gray-400`}
+                    } focus:ring-2 focus:ring-brand focus:border-brand px-3 py-2.5 text-gray-900 placeholder-gray-400`}
                     placeholder="Your Full Name"
                     aria-invalid={!!errors.fullName}
                     aria-describedby={
@@ -154,7 +154,7 @@ const Contact = () => {
                     onChange={handleChange}
                     className={`w-full rounded-lg border ${
                       errors.email ? "border-red-300" : "border-gray-300"
-                    } focus:ring-2 focus:ring-green-500 focus:border-green-500 px-3 py-2.5 text-gray-900 placeholder-gray-400`}
+                    } focus:ring-2 focus:ring-brand focus:border-brand px-3 py-2.5 text-gray-900 placeholder-gray-400`}
                     placeholder="your@email.com"
                     aria-invalid={!!errors.email}
                     aria-describedby={errors.email ? "error-email" : undefined}
@@ -175,7 +175,7 @@ const Contact = () => {
                     name="company"
                     value={formData.company}
                     onChange={handleChange}
-                    className="w-full rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 px-3 py-2.5 text-gray-900 placeholder-gray-400"
+                    className="w-full rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand focus:border-brand px-3 py-2.5 text-gray-900 placeholder-gray-400"
                     placeholder="Your Company Name"
                   />
                 </div>
@@ -191,7 +191,7 @@ const Contact = () => {
                     onChange={handleChange}
                     className={`w-full rounded-lg border ${
                       errors.phone ? "border-red-300" : "border-gray-300"
-                    } focus:ring-2 focus:ring-green-500 focus:border-green-500 px-3 py-2.5 text-gray-900 placeholder-gray-400`}
+                    } focus:ring-2 focus:ring-brand focus:border-brand px-3 py-2.5 text-gray-900 placeholder-gray-400`}
                     placeholder="+254764444444"
                     aria-invalid={!!errors.phone}
                     aria-describedby={errors.phone ? "error-phone" : undefined}
@@ -212,7 +212,7 @@ const Contact = () => {
                       name="service"
                       value={formData.service}
                       onChange={handleChange}
-                      className="w-full appearance-none rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 px-3 py-2.5 text-gray-900 bg-white"
+                      className="w-full appearance-none rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand focus:border-brand px-3 py-2.5 text-gray-900 bg-white"
                     >
                       <option value="">Select a Service</option>
                       {services.map((s) => (
@@ -246,7 +246,7 @@ const Contact = () => {
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
-                    className="w-full rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 px-3 py-2.5 text-gray-900 placeholder-gray-400"
+                    className="w-full rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand focus:border-brand px-3 py-2.5 text-gray-900 placeholder-gray-400"
                     placeholder="Tell us about your project, challenges or questions"
                   />
                 </div>
@@ -256,7 +256,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-green-600 hover:bg-green-700 disabled:opacity-60 text-white px-5 py-3 text-sm font-medium transition-colors"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-brand hover:bg-brand-2 disabled:opacity-60 text-white px-5 py-3 text-sm font-medium transition-colors"
                 >
                   {isSubmitting ? (
                     <>
@@ -307,9 +307,9 @@ const Contact = () => {
           <div className="space-y-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex items-start gap-3 rounded-xl bg-white ring-1 ring-gray-100 p-4">
-                <span className="h-10 w-10 rounded-lg bg-green-100 flex items-center justify-center">
+                <span className="h-10 w-10 rounded-lg bg-brand/10 flex items-center justify-center">
                   <svg
-                    className="h-5 w-5 text-green-600"
+                    className="h-5 w-5 text-brand"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -339,9 +339,9 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start gap-3 rounded-xl bg-white ring-1 ring-gray-100 p-4">
-                <span className="h-10 w-10 rounded-lg bg-green-100 flex items-center justify-center">
+                <span className="h-10 w-10 rounded-lg bg-brand/10 flex items-center justify-center">
                   <svg
-                    className="h-5 w-5 text-green-600"
+                    className="h-5 w-5 text-brand"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -364,9 +364,9 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start gap-3 rounded-xl bg-white ring-1 ring-gray-100 p-4">
-                <span className="h-10 w-10 rounded-lg bg-green-100 flex items-center justify-center">
+                <span className="h-10 w-10 rounded-lg bg-brand/10 flex items-center justify-center">
                   <svg
-                    className="h-5 w-5 text-green-600"
+                    className="h-5 w-5 text-brand"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -389,9 +389,9 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start gap-3 rounded-xl bg-white ring-1 ring-gray-100 p-4">
-                <span className="h-10 w-10 rounded-lg bg-green-100 flex items-center justify-center">
+                <span className="h-10 w-10 rounded-lg bg-brand/10 flex items-center justify-center">
                   <svg
-                    className="h-5 w-5 text-green-600"
+                    className="h-5 w-5 text-brand"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -414,7 +414,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="rounded-2xl bg-green-600 text-white p-6 md:p-8">
+            <div className="rounded-2xl bg-brand text-white p-6 md:p-8">
               <div className="flex items-start gap-3">
                 <span className="h-10 w-10 rounded-lg bg-white/20 flex items-center justify-center">
                   <svg
@@ -443,7 +443,7 @@ const Contact = () => {
                   <div className="mt-4">
                     <a
                       href="#"
-                      className="inline-flex items-center gap-2 rounded-lg bg-white text-green-700 px-4 py-2.5 text-sm font-semibold hover:bg-white/90 transition-colors"
+                      className="inline-flex items-center gap-2 rounded-lg bg-white text-brand px-4 py-2.5 text-sm font-semibold hover:bg-white/90 transition-colors"
                     >
                       Book A Consultation
                     </a>
@@ -458,7 +458,7 @@ const Contact = () => {
               </h3>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
-                  <span className="h-7 w-7 rounded-full bg-green-100 text-green-700 flex items-center justify-center text-sm font-bold">
+                  <span className="h-7 w-7 rounded-full bg-brand/10 text-brand flex items-center justify-center text-sm font-bold">
                     1
                   </span>
                   <div>
@@ -468,7 +468,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="h-7 w-7 rounded-full bg-green-100 text-green-700 flex items-center justify-center text-sm font-bold">
+                  <span className="h-7 w-7 rounded-full bg-brand/10 text-brand flex items-center justify-center text-sm font-bold">
                     2
                   </span>
                   <div>
@@ -478,7 +478,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <span className="h-7 w-7 rounded-full bg-green-100 text-green-700 flex items-center justify-center text-sm font-bold">
+                  <span className="h-7 w-7 rounded-full bg-brand/10 text-brand flex items-center justify-center text-sm font-bold">
                     3
                   </span>
                   <div>
