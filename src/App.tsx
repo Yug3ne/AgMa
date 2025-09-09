@@ -6,6 +6,7 @@ import Service from "./pages/service";
 import Assessment from "./pages/assessment";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Process from "./pages/process";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/service" element={<Service />} />
         <Route path="/assessment" element={<Assessment />} />
+        <Route path="/process" element={<Process/>} />
       </Routes>
       <Footer/>
     </>
