@@ -560,7 +560,7 @@ const About = () => {
             {/* Market Systems Development */}
             <div>
               <img
-                src="/approach-1.png"
+                src="/plant.png"
                 alt="Market systems development"
                 className="w-full h-56 md:h-64 object-cover rounded-lg"
               />
@@ -575,7 +575,7 @@ const About = () => {
             {/* Capacity Building */}
             <div>
               <img
-                src="/approach-2.png"
+                src="/growth.png"
                 alt="Capacity building"
                 className="w-full h-56 md:h-64 object-cover rounded-lg"
               />
@@ -592,7 +592,7 @@ const About = () => {
             {/* Evidence-Based Solutions */}
             <div>
               <img
-                src="/approach-3.png"
+                src="/discuss.png"
                 alt="Evidence-based solutions"
                 className="w-full h-56 md:h-64 object-cover rounded-lg"
               />
@@ -607,7 +607,7 @@ const About = () => {
             {/* Collaborative Partnership */}
             <div>
               <img
-                src="/approach-4.png"
+                src="/handshake.png"
                 alt="Collaborative partnership"
                 className="w-full h-56 md:h-64 object-cover rounded-lg"
               />
@@ -622,9 +622,9 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="py-20 bg-gray-50">
+      <section className=" bg-gray-50">
       <div className="">
-        <div className="bg-green-600 rounded-3xl px-8 py-16 md:px-16 md:py-20 text-center">
+        <div className="bg-green-600  px-8 py-16 md:px-16 md:py-20 text-center">
           {/* Main Heading */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
             Ready to Transform Your Agribusiness?
