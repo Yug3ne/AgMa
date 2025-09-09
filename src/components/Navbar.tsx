@@ -14,10 +14,14 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">A</span>
+              <div className="w-10 h-10 flex items-center justify-center">
+                <img
+                  src="/logo.png"
+                  alt="AgMa Logo"
+                  className="w-10 h-10 object-contain"
+                />
               </div>
-              <span className="text-2xl font-bold text-gray-900">AgMa</span>
+              <span className="text-2xl font-bold text-green-600">AgMa</span>
             </Link>
           </div>
 

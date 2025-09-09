@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <section className="relative overflow-hidden">
-      {/* Background Image */}
+
       <div className="absolute inset-0">
         <img
           src="/landing 1.png"

@@ -4,7 +4,7 @@ import ServicesSection from "../components/landing/ServicesSection";
 import ExpertiseSection from "../components/landing/ExpertiseSection";
 import ProcessSection from "../components/landing/ProcessSection";
 import CTASection from "../components/landing/CTASection";
-import Footer from "../components/Footer";
+
 
 const Landing = () => {
   return (
@@ -15,7 +15,7 @@ const Landing = () => {
       <ExpertiseSection />
       <ProcessSection />
       <CTASection />
-      <Footer />
+
     </div>
   );
 };

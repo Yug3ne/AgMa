@@ -5,6 +5,7 @@ import Contact from "./pages/contact";
 import Service from "./pages/service";
 import Assessment from "./pages/assessment";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/service" element={<Service />} />
         <Route path="/assessment" element={<Assessment />} />
       </Routes>
+      <Footer/>
     </>
   );
 };
